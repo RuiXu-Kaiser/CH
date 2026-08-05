@@ -23,9 +23,10 @@ start=0
 toGrab=5000000
 count = toGrab
 userName=os.getlogin()
-logFile=open("/logs/bcn/api-actions.log","a")
+logFile=open("C:\\Users\\Y912052\\logs\\bcn\\api-actions.log","a")
 now = datetime.datetime.now()
 date=now.strftime("%Y-%m-%d %H:%M")
+PASS = "4RecrUth1984"
 
 #Command line options
 usage = "Usage: %prog -n [BAM Hostname] -u [BAM UserID] -t [Object Type] -s [Search String] -m [Select mode: search or tree] [-e]"
@@ -49,12 +50,13 @@ if ( options.external ):
 else:
         config_name="KP"
 
-BAMAddress=re.sub("\.$","",options.BAMAddress)
+BAMAddress=re.sub(r"\.$","",options.BAMAddress)
 
-bamurl=re.sub("\.$","",options.BAMAddress)
+bamurl=re.sub(r"\.$", "", options.BAMAddress)
 url = "https://"+bamurl+"/Services/REST/v1/"
 password=quote(account_password.encode())
 loginurl = url+"login?username="+options.account+"&password="+password
+#print (loginurl)
 
 
 #login to api session
@@ -97,7 +99,7 @@ while count == toGrab:
 				print((lines.decode('utf-8')+"\n"))
 				fetchedLines+=1
 		else:
-			with open(options.objectType + ".txt",'w') as fd:
+			with open(options.objectType + ".txt",'w',encoding='utf-8') as fd:
 				for lines in exportEntities.iter_lines():
 					fd.write((lines.decode('utf-8')+"\n"))
 					fetchedLines+=1
