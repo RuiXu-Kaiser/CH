@@ -1,0 +1,992 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- API EOS Warning: This API Path "https://qualysapi.qg2.apps.qualys.com/api/2.0/fo/scan/index.php" has reached End-of-Service (EOS) and will be EOL in 139 days. Please use new API path "https://qualysapi.qg2.apps.qualys.com/api/3.0/fo/scan/index.php". //--> 
+
+<!DOCTYPE SCAN_LIST_OUTPUT SYSTEM "https://qualysapi.qg2.apps.qualys.com/api/2.0/fo/scan/scan_list_output.dtd">
+<SCAN_LIST_OUTPUT>
+  <RESPONSE>
+    <DATETIME>2026-08-13T02:28:44Z</DATETIME>
+    <SCAN_LIST>
+      <SCAN>
+        <REF>scan/1786575617.74635</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[External Group 5:  167.223.0.0-167.223.255.255]]></TITLE>
+        <USER_LOGIN>kaser2rx</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-12T23:00:17Z</LAUNCH_DATETIME>
+        <DURATION>03:04:49</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786572018.74201</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[External Group 4:  167.214.0.0-167.214.255.255]]></TITLE>
+        <USER_LOGIN>kaser2rx</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-12T22:00:18Z</LAUNCH_DATETIME>
+        <DURATION>03:03:04</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786568416.73700</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[External Group 3:  167.117.0.0/16 50.201.44.0/22]]></TITLE>
+        <USER_LOGIN>kaser2rx</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-12T21:00:16Z</LAUNCH_DATETIME>
+        <DURATION>02:57:15</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786561217.72586</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[External Group 1: 162.119.0.0-162.119.128.255]]></TITLE>
+        <USER_LOGIN>kaser2rx</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-12T19:00:17Z</LAUNCH_DATETIME>
+        <DURATION>02:53:27</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786557618.71874</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[External Group 2b: 162.119.198.0-162.119.226.255]]></TITLE>
+        <USER_LOGIN>kaser2rx</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-12T18:00:18Z</LAUNCH_DATETIME>
+        <DURATION>01:10:31</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786550702.70752</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[Cleanup_Other_Vuln Scan]]></TITLE>
+        <USER_LOGIN>kaser2rx</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-12T16:03:45Z</LAUNCH_DATETIME>
+        <DURATION>09:14:36</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786550622.70736</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[Cleanup_NorCal_Vuln Scan]]></TITLE>
+        <USER_LOGIN>kaser2rx</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-12T16:02:32Z</LAUNCH_DATETIME>
+        <DURATION>05:29:06</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786550591.70708</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[Cleanup_SouthCal_Vuln Scan]]></TITLE>
+        <USER_LOGIN>kaser2rx</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-12T16:01:34Z</LAUNCH_DATETIME>
+        <DURATION>07:23:20</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786518680.65648</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[Internal DMZ Discovery]]></TITLE>
+        <USER_LOGIN>kaser2rx</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-12T07:11:17Z</LAUNCH_DATETIME>
+        <DURATION>09:37:43</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786510877.64056</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[Azure Public IPs - External Scans]]></TITLE>
+        <USER_LOGIN>kaser2da</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-12T05:01:15Z</LAUNCH_DATETIME>
+        <DURATION>04:39:57</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786507998.63568</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[Internal DMZ - NDC - PST]]></TITLE>
+        <USER_LOGIN>kaser2rx</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-12T04:13:17Z</LAUNCH_DATETIME>
+        <DURATION>04:53:14</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786507756.63535</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[Internal DMZ - IDC - PST]]></TITLE>
+        <USER_LOGIN>kaser2rx</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-12T04:09:15Z</LAUNCH_DATETIME>
+        <DURATION>01:30:14</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786507385.63338</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[Internal DMZ - KPWA]]></TITLE>
+        <USER_LOGIN>kaser2rx</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-12T04:03:05Z</LAUNCH_DATETIME>
+        <DURATION>01:30:04</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786507384.63336</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[Internal DMZ - EQS, EQE, EQA]]></TITLE>
+        <USER_LOGIN>kaser2rx</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-12T04:03:04Z</LAUNCH_DATETIME>
+        <DURATION>00:54:24</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786507385.63337</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[Internal DMZ - CDC - PST]]></TITLE>
+        <USER_LOGIN>kaser2rx</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-12T04:03:04Z</LAUNCH_DATETIME>
+        <DURATION>07:11:10</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786507346.63309</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[Health-Sherpa-Scheduled-Monthly-Scan]]></TITLE>
+        <USER_LOGIN>kaser2da</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-12T04:02:25Z</LAUNCH_DATETIME>
+        <DURATION>01:13:21</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786507316.63211</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[Workstations_All Other_Vuln Scan]]></TITLE>
+        <USER_LOGIN>kaser2rx</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-12T04:01:38Z</LAUNCH_DATETIME>
+        <DURATION>05:19:50</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786507288.63199</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[PCI Servers_Vuln Scan]]></TITLE>
+        <USER_LOGIN>kaser2da</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-12T04:01:26Z</LAUNCH_DATETIME>
+        <DURATION>02:21:38</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786507259.63130</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[KP-Secure Domain Controllers]]></TITLE>
+        <USER_LOGIN>kaser2kn</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-12T04:00:58Z</LAUNCH_DATETIME>
+        <DURATION>03:21:54</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786500017.61753</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[External KPWA Scan]]></TITLE>
+        <USER_LOGIN>kaser2kn</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-12T02:00:17Z</LAUNCH_DATETIME>
+        <DURATION>00:28:32</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786497069.61007</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[Internal DMZ - SSDC - EST]]></TITLE>
+        <USER_LOGIN>kaser2rx</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-12T01:11:09Z</LAUNCH_DATETIME>
+        <DURATION>02:11:04</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786492821.60341</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[External Group 6:  192.x, 198.x, 199.x, 201.x, 205.x, 206.x, 209]]></TITLE>
+        <USER_LOGIN>kaser2rx</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-12T00:00:21Z</LAUNCH_DATETIME>
+        <DURATION>05:17:33</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786489217.59627</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[External Group 5:  167.223.0.0-167.223.255.255]]></TITLE>
+        <USER_LOGIN>kaser2rx</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-11T23:00:17Z</LAUNCH_DATETIME>
+        <DURATION>03:02:39</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786485617.59211</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[External Group 4:  167.214.0.0-167.214.255.255]]></TITLE>
+        <USER_LOGIN>kaser2rx</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-11T22:00:17Z</LAUNCH_DATETIME>
+        <DURATION>02:59:38</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786482018.58685</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[External Group 3:  167.117.0.0/16 50.201.44.0/22]]></TITLE>
+        <USER_LOGIN>kaser2rx</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-11T21:00:18Z</LAUNCH_DATETIME>
+        <DURATION>02:57:45</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786478421.58251</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[External Group 2c: 162.119.227.0-162.119.255.255]]></TITLE>
+        <USER_LOGIN>kaser2rx</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-11T20:00:20Z</LAUNCH_DATETIME>
+        <DURATION>07:27:33</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786478418.58245</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[External Group 2a: 162.119.129.0-162.119.197.255]]></TITLE>
+        <USER_LOGIN>kaser2rx</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-11T20:00:17Z</LAUNCH_DATETIME>
+        <DURATION>10:23:28</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786474817.57723</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[External Group 1: 162.119.0.0-162.119.128.255]]></TITLE>
+        <USER_LOGIN>kaser2rx</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-11T19:00:17Z</LAUNCH_DATETIME>
+        <DURATION>02:25:09</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786471223.57035</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[External Group 2b: 162.119.198.0-162.119.226.255]]></TITLE>
+        <USER_LOGIN>kaser2rx</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-11T18:00:22Z</LAUNCH_DATETIME>
+        <DURATION>01:09:48</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786464297.56090</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[Cleanup_SouthCal_Vuln Scan]]></TITLE>
+        <USER_LOGIN>kaser2rx</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-11T16:02:51Z</LAUNCH_DATETIME>
+        <DURATION>07:20:09</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786464243.56082</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[Cleanup_NorCal_Vuln Scan]]></TITLE>
+        <USER_LOGIN>kaser2rx</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-11T16:02:20Z</LAUNCH_DATETIME>
+        <DURATION>05:28:19</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786464229.56066</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[Cleanup_Other_Vuln Scan]]></TITLE>
+        <USER_LOGIN>kaser2rx</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-11T16:01:39Z</LAUNCH_DATETIME>
+        <DURATION>09:33:36</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786431882.51431</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[Internal DMZ Discovery]]></TITLE>
+        <USER_LOGIN>kaser2rx</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-11T07:04:40Z</LAUNCH_DATETIME>
+        <DURATION>09:44:23</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786431682.51287</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[Workstations_NorthCal_Vuln Scan]]></TITLE>
+        <USER_LOGIN>kaser2rx</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-11T07:01:12Z</LAUNCH_DATETIME>
+        <DURATION>04:12:04</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786428110.50705</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[KP Domain Controllers Scan 10]]></TITLE>
+        <USER_LOGIN>kaser2kn</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-11T06:01:50Z</LAUNCH_DATETIME>
+        <DURATION>03:34:53</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786428056.50622</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[KP Domain Controllers Scan 9]]></TITLE>
+        <USER_LOGIN>kaser2kn</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-11T06:00:56Z</LAUNCH_DATETIME>
+        <DURATION>03:41:09</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786424477.49861</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[Azure Public IPs - External Scans]]></TITLE>
+        <USER_LOGIN>kaser2da</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-11T05:01:16Z</LAUNCH_DATETIME>
+        <DURATION>04:38:23</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786424452.49833</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[KP DMZ Domain Controller]]></TITLE>
+        <USER_LOGIN>kaser2kn</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-11T05:00:51Z</LAUNCH_DATETIME>
+        <DURATION>04:01:12</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786423561.49639</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[Weekly vuln scan for long host scan time]]></TITLE>
+        <USER_LOGIN>kaser2rx</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-11T04:45:44Z</LAUNCH_DATETIME>
+        <DURATION>1 day 09:03:13</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786421366.49377</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[Internal DMZ - CDC - PST]]></TITLE>
+        <USER_LOGIN>kaser2rx</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-11T04:09:25Z</LAUNCH_DATETIME>
+        <DURATION>07:12:14</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786421364.49376</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[Internal DMZ - KPWA]]></TITLE>
+        <USER_LOGIN>kaser2rx</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-11T04:09:24Z</LAUNCH_DATETIME>
+        <DURATION>03:48:39</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786421391.49375</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[Weekly WA Vulnerability Scan]]></TITLE>
+        <USER_LOGIN>kaser2rx</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-11T04:09:21Z</LAUNCH_DATETIME>
+        <DURATION>15:14:06</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786421352.49372</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[Internal DMZ - EQS, EQE, EQA]]></TITLE>
+        <USER_LOGIN>kaser2rx</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-11T04:09:12Z</LAUNCH_DATETIME>
+        <DURATION>00:57:27</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786421324.49371</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[Internal DMZ - NDC - PST]]></TITLE>
+        <USER_LOGIN>kaser2rx</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-11T04:08:44Z</LAUNCH_DATETIME>
+        <DURATION>05:00:00</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786421326.49370</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[Internal DMZ Offset Scan]]></TITLE>
+        <USER_LOGIN>kaser2rx</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-11T04:08:42Z</LAUNCH_DATETIME>
+        <DURATION>1 day 05:54:04</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786421280.49366</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[Internal DMZ - IDC - PST]]></TITLE>
+        <USER_LOGIN>kaser2rx</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-11T04:07:59Z</LAUNCH_DATETIME>
+        <DURATION>01:24:35</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786420945.49215</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[Health-Sherpa-Scheduled-Monthly-Scan]]></TITLE>
+        <USER_LOGIN>kaser2da</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-11T04:02:24Z</LAUNCH_DATETIME>
+        <DURATION>01:14:50</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786420880.49044</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[Region_NorthCal_Regulatory_Vuln Scan]]></TITLE>
+        <USER_LOGIN>kaser2rx</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-11T04:01:11Z</LAUNCH_DATETIME>
+        <DURATION>18:14:14</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786420945.49042</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[DC_Napa_Vuln Scan]]></TITLE>
+        <USER_LOGIN>kaser2rx</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-11T04:01:11Z</LAUNCH_DATETIME>
+        <DURATION>12:22:39</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786420944.49039</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[DC_Corona_Vuln Scan]]></TITLE>
+        <USER_LOGIN>kaser2rx</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-11T04:01:10Z</LAUNCH_DATETIME>
+        <DURATION>08:34:20</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786420829.49002</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[PCI Servers_Vuln Scan]]></TITLE>
+        <USER_LOGIN>kaser2da</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-11T04:00:27Z</LAUNCH_DATETIME>
+        <DURATION>02:11:15</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786413631.47688</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[RITM10699300-Venkatesan]]></TITLE>
+        <USER_LOGIN>kaser2ll</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-11T02:00:31Z</LAUNCH_DATETIME>
+        <DURATION>00:07:57</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786413618.47644</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[External KPWA Scan]]></TITLE>
+        <USER_LOGIN>kaser2kn</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-11T02:00:18Z</LAUNCH_DATETIME>
+        <DURATION>00:23:59</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786410105.46898</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[Internal DMZ - SSDC - EST]]></TITLE>
+        <USER_LOGIN>kaser2rx</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-11T01:01:44Z</LAUNCH_DATETIME>
+        <DURATION>02:11:09</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786406421.46388</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[External Group 6:  192.x, 198.x, 199.x, 201.x, 205.x, 206.x, 209]]></TITLE>
+        <USER_LOGIN>kaser2rx</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-11T00:00:20Z</LAUNCH_DATETIME>
+        <DURATION>07:08:02</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786402818.45920</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[External Group 5:  167.223.0.0-167.223.255.255]]></TITLE>
+        <USER_LOGIN>kaser2rx</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-10T23:00:18Z</LAUNCH_DATETIME>
+        <DURATION>03:07:43</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786399219.45463</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[External Group 4:  167.214.0.0-167.214.255.255]]></TITLE>
+        <USER_LOGIN>kaser2rx</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-10T22:00:19Z</LAUNCH_DATETIME>
+        <DURATION>02:59:20</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786395619.44787</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[External Group 3:  167.117.0.0/16 50.201.44.0/22]]></TITLE>
+        <USER_LOGIN>kaser2rx</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-10T21:00:19Z</LAUNCH_DATETIME>
+        <DURATION>02:57:56</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786392021.44279</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[External Group 2c: 162.119.227.0-162.119.255.255]]></TITLE>
+        <USER_LOGIN>kaser2rx</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-10T20:00:21Z</LAUNCH_DATETIME>
+        <DURATION>07:31:29</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786392019.44275</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[External Group 2a: 162.119.129.0-162.119.197.255]]></TITLE>
+        <USER_LOGIN>kaser2rx</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-10T20:00:19Z</LAUNCH_DATETIME>
+        <DURATION>10:24:11</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786389923.43879</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[Region_SouthCal_Discovery Scan]]></TITLE>
+        <USER_LOGIN>kaser2rx</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-10T19:21:55Z</LAUNCH_DATETIME>
+        <DURATION>1 day 15:01:47</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786388416.43675</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[External Group 1: 162.119.0.0-162.119.128.255]]></TITLE>
+        <USER_LOGIN>kaser2rx</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-10T19:00:16Z</LAUNCH_DATETIME>
+        <DURATION>02:21:50</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786384819.42989</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[External Group 2b: 162.119.198.0-162.119.226.255]]></TITLE>
+        <USER_LOGIN>kaser2rx</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-10T18:00:18Z</LAUNCH_DATETIME>
+        <DURATION>01:10:35</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786377914.41897</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[Cleanup_Other_Vuln Scan]]></TITLE>
+        <USER_LOGIN>kaser2rx</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-10T16:03:20Z</LAUNCH_DATETIME>
+        <DURATION>09:31:26</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786377897.41896</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[Cleanup_SouthCal_Vuln Scan]]></TITLE>
+        <USER_LOGIN>kaser2rx</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-10T16:03:18Z</LAUNCH_DATETIME>
+        <DURATION>07:10:14</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786377834.41878</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[Cleanup_NorCal_Vuln Scan]]></TITLE>
+        <USER_LOGIN>kaser2rx</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-10T16:02:19Z</LAUNCH_DATETIME>
+        <DURATION>05:37:07</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786345635.37170</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[Region_Hawaii_Discovery Scan]]></TITLE>
+        <USER_LOGIN>kaser2rx</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-10T07:06:51Z</LAUNCH_DATETIME>
+        <DURATION>1 day 05:57:02</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786345588.37169</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[Internal DMZ Discovery]]></TITLE>
+        <USER_LOGIN>kaser2rx</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-10T07:06:24Z</LAUNCH_DATETIME>
+        <DURATION>09:25:19</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786338017.35776</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[Azure Public IPs - External Scans]]></TITLE>
+        <USER_LOGIN>kaser2da</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-10T05:00:16Z</LAUNCH_DATETIME>
+        <DURATION>04:40:00</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786334653.35350</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[Region_NorthWest_Discovery Scan]]></TITLE>
+        <USER_LOGIN>kaser2rx</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-10T04:03:10Z</LAUNCH_DATETIME>
+        <DURATION>1 day 02:20:28</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786334655.35320</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[Region_Unknown_Discovery Scan]]></TITLE>
+        <USER_LOGIN>kaser2rx</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-10T04:02:46Z</LAUNCH_DATETIME>
+        <DURATION>13:32:04</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786334566.35319</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[Region_Las Vegas_Discovery Scan]]></TITLE>
+        <USER_LOGIN>kaser2rx</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-10T04:02:46Z</LAUNCH_DATETIME>
+        <DURATION>00:36:02</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786334566.35317</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[Workstations_SouthCal_Vuln Scan]]></TITLE>
+        <USER_LOGIN>kaser2rx</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-10T04:02:37Z</LAUNCH_DATETIME>
+        <DURATION>08:33:40</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786334554.35315</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[Internal DMZ - KPWA]]></TITLE>
+        <USER_LOGIN>kaser2rx</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-10T04:02:33Z</LAUNCH_DATETIME>
+        <DURATION>01:30:03</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786334551.35313</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[Internal DMZ - EQS, EQE, EQA]]></TITLE>
+        <USER_LOGIN>kaser2rx</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-10T04:02:31Z</LAUNCH_DATETIME>
+        <DURATION>00:53:59</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786334557.35304</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[Workstations_All Other_Vuln Scan]]></TITLE>
+        <USER_LOGIN>kaser2rx</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-10T04:02:24Z</LAUNCH_DATETIME>
+        <DURATION>05:57:57</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786334545.35306</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[Health-Sherpa-Scheduled-Monthly-Scan]]></TITLE>
+        <USER_LOGIN>kaser2da</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-10T04:02:24Z</LAUNCH_DATETIME>
+        <DURATION>01:11:35</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786334534.35257</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[Internal DMZ - CDC - PST]]></TITLE>
+        <USER_LOGIN>kaser2rx</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-10T04:02:13Z</LAUNCH_DATETIME>
+        <DURATION>07:52:57</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786334536.35237</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[Internal DMZ Offset Scan]]></TITLE>
+        <USER_LOGIN>kaser2rx</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-10T04:02:12Z</LAUNCH_DATETIME>
+        <DURATION>17:55:38</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786334515.35212</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[Internal DMZ - NDC - PST]]></TITLE>
+        <USER_LOGIN>kaser2rx</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-10T04:01:54Z</LAUNCH_DATETIME>
+        <DURATION>03:49:13</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786334515.35211</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[Internal DMZ - IDC - PST]]></TITLE>
+        <USER_LOGIN>kaser2rx</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-10T04:01:54Z</LAUNCH_DATETIME>
+        <DURATION>01:24:39</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786334517.35208</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[Weekly UHC & ITOPS Offset Vuln Scan]]></TITLE>
+        <USER_LOGIN>kaser2rx</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-10T04:01:48Z</LAUNCH_DATETIME>
+        <DURATION>07:02:11</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786334482.35164</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[PCI Servers_Vuln Scan]]></TITLE>
+        <USER_LOGIN>kaser2da</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-10T04:01:20Z</LAUNCH_DATETIME>
+        <DURATION>02:11:35</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786334469.35101</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[DC_Pleasanton_Vuln Scan]]></TITLE>
+        <USER_LOGIN>kaser2rx</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-10T04:00:44Z</LAUNCH_DATETIME>
+        <DURATION>11:32:16</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786334439.35097</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[Region_SouthCal_Regulatory_Vuln Scan]]></TITLE>
+        <USER_LOGIN>kaser2rx</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-10T04:00:38Z</LAUNCH_DATETIME>
+        <DURATION>05:45:29</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786334439.35095</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[DC_Walnut_Vuln Scan]]></TITLE>
+        <USER_LOGIN>kaser2rx</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-10T04:00:36Z</LAUNCH_DATETIME>
+        <DURATION>05:25:56</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786331304.34585</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[Region_Colorado_Discovery Scan]]></TITLE>
+        <USER_LOGIN>kaser2rx</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-10T03:07:56Z</LAUNCH_DATETIME>
+        <DURATION>17:56:40</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786330867.34450</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[Regions_All Other_Regulatory_Vuln Scan]]></TITLE>
+        <USER_LOGIN>kaser2rx</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-10T03:01:04Z</LAUNCH_DATETIME>
+        <DURATION>07:28:14</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786330839.34442</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[DC_Boulder_Vuln Scan]]></TITLE>
+        <USER_LOGIN>kaser2rx</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-10T03:00:36Z</LAUNCH_DATETIME>
+        <DURATION>03:51:38</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786327530.33723</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[Region_Ohio_Discovery Scan]]></TITLE>
+        <USER_LOGIN>kaser2rx</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-10T02:05:30Z</LAUNCH_DATETIME>
+        <DURATION>02:28:31</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786327218.33572</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[External KPWA Scan]]></TITLE>
+        <USER_LOGIN>kaser2kn</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-10T02:00:18Z</LAUNCH_DATETIME>
+        <DURATION>00:24:38</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786324117.32863</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[Region_Georgia_Discovery Scan]]></TITLE>
+        <USER_LOGIN>kaser2rx</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-10T01:08:23Z</LAUNCH_DATETIME>
+        <DURATION>15:56:37</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786324255.32859</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[Region_NorthCal_Discovery Scan]]></TITLE>
+        <USER_LOGIN>kaser2rx</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-10T01:06:55Z</LAUNCH_DATETIME>
+        <DURATION>1 day 23:44:00</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786324057.32858</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[Region_Maryland_Discovery Scan]]></TITLE>
+        <USER_LOGIN>kaser2rx</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-10T01:06:50Z</LAUNCH_DATETIME>
+        <DURATION>20:08:47</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786323690.32816</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[Internal DMZ - SSDC - EST]]></TITLE>
+        <USER_LOGIN>kaser2rx</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-10T01:01:30Z</LAUNCH_DATETIME>
+        <DURATION>02:15:33</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786323644.32750</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[Region_Maryland_Regulatory_Vuln Scan]]></TITLE>
+        <USER_LOGIN>kaser2rx</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-10T01:00:44Z</LAUNCH_DATETIME>
+        <DURATION>04:08:11</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786323658.32749</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[DC_SilverSpring_Vuln Scan]]></TITLE>
+        <USER_LOGIN>kaser2rx</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-10T01:00:40Z</LAUNCH_DATETIME>
+        <DURATION>11:02:18</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+      <SCAN>
+        <REF>scan/1786320020.32304</REF>
+        <TYPE>Scheduled</TYPE>
+        <TITLE><![CDATA[External Group 6:  192.x, 198.x, 199.x, 201.x, 205.x, 206.x, 209]]></TITLE>
+        <USER_LOGIN>kaser2rx</USER_LOGIN>
+        <LAUNCH_DATETIME>2026-08-10T00:00:20Z</LAUNCH_DATETIME>
+        <DURATION>05:14:02</DURATION>
+        <PROCESSING_PRIORITY>0 - No Priority</PROCESSING_PRIORITY>
+        <PROCESSED>1</PROCESSED>
+      </SCAN>
+    </SCAN_LIST>
+  </RESPONSE>
+</SCAN_LIST_OUTPUT>
+<!-- CONFIDENTIAL AND PROPRIETARY INFORMATION. Qualys provides it's Service "As Is," without any warranty of any kind. Qualys makes no warranty that the information contained in this report is complete or error-free. Copyright 2026, Qualys, Inc. //--> 

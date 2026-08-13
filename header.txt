@@ -1,0 +1,20 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Thu, 13 Aug 2026 02:32:30 GMT
+Content-Type: text/xml;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: QualysSession=c0d48797c624af80ab56597cf93b0129; path=/api; secure; HttpOnly; SameSite=Lax
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, private, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Set-Cookie: DWRSESSIONID=3f0037c1a1665aaf5a95174398085364; path=/api; secure; SameSite=Lax
+Content-Security-Policy: default-src 'self' *.qualys.com *.qualys.ca *.qualys.eu *.qualys.it *.qualys.in *.qualys.ae *.qualys.co.uk *.qualys.com.au *.qualysksa.com *.qualys.sg  *.qualys.us;
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+
