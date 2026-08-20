@@ -23,7 +23,7 @@ start=0
 toGrab=5000000
 count = toGrab
 userName=os.getlogin()
-logFile=open("/logs/bcn/api-actions.log","a")
+logFile=open("C:\\Users\\Y912052\\logs\\bcn\\api-actions.log","a")
 now = datetime.datetime.now()
 date=now.strftime("%Y-%m-%d %H:%M")
 
@@ -42,16 +42,16 @@ if not (options.account and options.BAMAddress and options.objectType and option
 	parser.print_help()
 	sys.exit()
 
-account_password=PASS
+account_password="4RecrUth1984"
 
 if ( options.external ):
         config_name="KP-External"
 else:
         config_name="KP"
 
-BAMAddress=re.sub("\.$","",options.BAMAddress)
+BAMAddress=re.sub(r"\.$","",options.BAMAddress)
 
-bamurl=re.sub("\.$","",options.BAMAddress)
+bamurl = re.sub(r"\.$", "", options.BAMAddress)
 url = "https://"+bamurl+"/Services/REST/v1/"
 password=quote(account_password.encode())
 loginurl = url+"login?username="+options.account+"&password="+password
