@@ -21,7 +21,7 @@ import ipaddress
 import socket
 
 userName=os.getlogin()
-logFile=open("C:\\Users\\Y912052\\logs\\bcn\\api-actions.log","a")
+logFile=open("/logs/bcn/api-actions.log","a")
 now = datetime.datetime.now()
 date=now.strftime("%Y-%m-%d %H:%M")
 
@@ -140,9 +140,9 @@ with open("IP4Block.txt","r") as fd:
 		
 staticList=['STATIC','RESERVED','DHCP_RESERVED','GATEWAY']
 
-DnsFile=open("DnsRecords.txt","w", encoding="utf-8")
-CommentsFile=open("BlueCatComments.txt","w", encoding="utf-8")
-blockFile=open("blocks.txt","w", encoding="utf-8")
+DnsFile=open("DnsRecords.txt","w")
+CommentsFile=open("BlueCatComments.txt","w")
+blockFile=open("blocks.txt","w")
 
 #Static Hosts
 
@@ -246,12 +246,12 @@ for key in genericCommentDict:
 	CommentsFile.write(key+"|"+genericCommentDict[key]+"\n")
 
 #Networks
-CafmStuff=open("CafmStuff_10.0.0.0_255.255.255.255.txt","w", encoding="utf-8")
+CafmStuff=open("CafmStuff_10.0.0.0_255.255.255.255.txt","w")
 #TIM ETL is looking for a "blank header line" so print one in CafmStuff_10.0.0.0_255.255.255.255.txt
 CafmStuff.write("\n")
 
 CafmStuffExcel=Workbook("CafmStuff_10.0.0.0_255.255.255.255.xlsx")
-CafmStuffInteger=open("CafmStuffInteger.txt","w", encoding="utf-8")
+CafmStuffInteger=open("CafmStuffInteger.txt","w")
 worksheet=CafmStuffExcel.add_worksheet()
 columnNames=["Subnet Address","Subnet Description","Default Domain","CAFM Address","CAFM Building ID","CAFM Building Name","CAFM City","CAFM Location ID","CAFM Location Name","CAFM Site ID","CAFM State","CAFM Zip","Comment","NDE Code"]
 row=0
